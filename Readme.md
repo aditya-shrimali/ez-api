@@ -32,7 +32,7 @@ EzyMetrics is a backend service designed for data integrations and reporting for
 - Express.js
 - PDFKit (for PDF generation)
 - json2csv (for CSV generation)
-- MongoDB or PostgreSQL (as per your choice)
+- MongoDB (for database)
 
 ## Getting Started
 
@@ -40,20 +40,19 @@ EzyMetrics is a backend service designed for data integrations and reporting for
 
 - Node.js (v14 or later)
 - NPM (Node Package Manager)
-- A relational or NoSQL database setup (if applicable)
 
 ### Installation
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd ezyMetrics-backend
+   git clone https://github.com/aditya-shrimali/ez-api.git
+   cd ez-api
    ```
 2. **Install dependencies**:
    ```bash
    npm install
    ```
-3. **Set up your environment variables**: Create a `.env` file in the root directory and add your configuration settings if needed.
+3. **Set up your environment variables**: Create a `.env` file in the root directory and add your configuration { MONGO_URL, PORT}.
 
 ### Running the Application
 
@@ -63,7 +62,7 @@ Start the server:
 npm start
 ```
 
-The server should be running on [http://localhost:3000](http://localhost:3000).
+The server should be running on [http://localhost:3000].
 
 ## API Endpoints
 
